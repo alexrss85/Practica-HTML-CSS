@@ -300,4 +300,39 @@ i{
 
 
 
+/* MEDIA QUERYS */
+
+
+@media only screen and (max-width: 768px){
+
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .elem{
+        background-color: #ffffff;
+        margin: 10px;  
+        width: 100px;
+        margin-right: 0px;
+    }
+
+    #img{
+        height: 20%;
+    }
+    
+    .textimg{
+        top: 150px;
+        left: 50px;
+        font-size: 25px;
+    }
+
+    .section{
+        width: 80%;
+    }
+
+    .section-main{
+        width: 80%;
+    }
+}
 
