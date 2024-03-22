@@ -1,4 +1,3 @@
-
 body{
     background-color: rgb(255, 255, 255);
     margin: 0;
@@ -305,6 +304,7 @@ i{
 
 @media only screen and (max-width: 768px){
 
+
     .menu{
         display: flex;
         justify-content: flex-start;
@@ -322,17 +322,114 @@ i{
     }
     
     .textimg{
-        top: 150px;
-        left: 50px;
-        font-size: 25px;
+        top: 10%;
+        left: 2%;
+        font-size: 1.3em;
     }
 
-    .section{
-        width: 80%;
-    }
+
 
     .section-main{
         width: 80%;
     }
+
+
+    /*FLOAT*/ 
+    .imgNos1{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .p1{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .imgNos2{
+        width: 100%;
+        margin: 0px;
+        float: none;
+    }
+
+    .p2{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .container-nosaltres{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+
+    /*GRID*/
+
+    
+    .main-principal{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-areas: 
+            'elem1 elem1'
+            'elem2 elem2'
+            'elem3 elem4'
+            'elem3 elem5'
+            'elem3 elem6'
+            'elem7 elem8'
+            'elem7 elem9'
+            'elem7 elem10';
+        
+    }
+
+
+    /*FLEX*/
+    .imgGaleria{
+        width: 27vw;
+    }
+
+
+    /*FOOTER*/
+
+    .d{
+        display: none   ;
+    }
+   
+}
+    
+
+@media only screen and (max-width: 576px){
+
+    .main{
+        padding: 20px;
+    }
+
+    /*TEXT IMATGE*/
+
+    .textimg{
+        top: 10%;
+        left: 2%;
+    }
+
+
+    /*FER LES SECCIONS 100% DE L'AMPLITUD*/
+    .section-main{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    /*GALERIA*/
+
+    .imgGaleria{
+        width: 100%;
+    }
+
+
 }
 
